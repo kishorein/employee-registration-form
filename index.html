@@ -1,0 +1,57 @@
+<body>
+    <center>
+<body> 
+<link rel="stylesheet" href="style.css">
+<br>
+<h1 style="color: 
+rgb(250, 245, 245);background-color: black;"  >EMPLOYEE REGISTRATION FORM</h1>
+</center>
+<div>
+<center>
+<form id="employeeForm" novalidate>
+    <table>
+        <tr>
+            <td><h2>Name:</h2></td>
+            <td>
+                <input id="name" type="text" placeholder="Enter Your Name">
+                <small class="error" id="nameError"></small>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Email:</h2></td>
+            <td>
+                <input id="email" type="email" placeholder="Enter Your Email">
+                <small class="error" id="emailError"></small>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Phone Number:</h2></td>
+            <td>
+                <input id="phone" type="tel" placeholder="Enter Your Mobile Number">
+                <small class="error" id="phoneError"></small>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Department:</h2></td>
+            <td>
+                <select id="department">
+                    <option value="HR">HR (Human Resources)</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Sales">Sales</option>
+                </select>
+                <small class="error" id="departmentError"></small>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"></td>
+            <td><input type="reset" value="Reset"></td>
+        </tr>
+    </table>
+
+    <p id="successMessage"></p>
+</form>
+
+<script src="main.js"></script>
+</center>
+</body>

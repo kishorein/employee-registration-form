@@ -1,0 +1,79 @@
+h2{
+    color: rgb(0, 0, 0);
+}
+h3{
+    color: black;
+}
+h1{
+    border-color: rgb(237, 235, 235);
+    border-width: 5px;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 32px;
+}
+body{
+    background: linear-gradient(
+        to bottom,
+        #d8a8f5,
+        #c8c9f5,
+        #9fdcf5,
+        #72e8f0
+    
+    );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+td{
+    padding: 14px 13px;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+}
+select{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: black;
+}
+*{
+    font-style: italic;
+
+}
+h2{
+    font-weight: 200;
+}
+form{
+    background: transparent;
+padding: 30px;
+width:700px;
+border-radius: 10px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+input {
+    border-radius: 10px;
+    border-color: black
+}
+input:focus,
+select:focus{
+    outline: none;
+    border: rgb(7, 1, 1),3px solid
+}
+button{
+    background-color: rgb(33, 21, 6);
+}
+
+.error {
+    display: block;
+    color: darkred;
+    font-size: 13px;
+    font-style: normal;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+    font-style: normal;
+}
